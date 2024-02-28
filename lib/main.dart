@@ -44,7 +44,7 @@ class _PixabayPageState extends State<PixabayPage> {
       'q': text,
       'image_type': 'photo',
       'pretty': true,
-      'per_page': 10,
+      'per_page': 100,
     });
     final List hits = response.data['hits'];
     pixabayImages = hits.map((e) => PixabayImage.fromMap(e)).toList();
