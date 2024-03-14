@@ -45,3 +45,12 @@ app.*.map.json
 #envfiles
 *.env
 *env.g.dart
+
+# Linux ignore
+/linux
+
+#MacOS ignore
+/macos
+
+#Windows ignore
+/windows
